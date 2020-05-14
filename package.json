@@ -6,6 +6,11 @@
   "scripts": {
     "build": "webpack && tsc -p tsconfig.json"
   },
+  "homepage": "https://github.com/laurelL22/cloudbase-adapter-quickapp#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/laurelL22/cloudbase-adapter-quickapp"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
