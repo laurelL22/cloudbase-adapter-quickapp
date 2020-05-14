@@ -1,0 +1,28 @@
+{
+  "name": "cloudbase-adapter-quickapp",
+  "version": "0.1.0-beta",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@types/node": "^14.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.7.2",
+    "eslint-config-alloy": "^3.4.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.11"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudbase/adapter-interface": "^0.4.0"
+  }
+}
